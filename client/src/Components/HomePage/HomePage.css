@@ -1,0 +1,64 @@
+#HomePage {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+#HomePage > h1 {
+  font-size: 2.75rem;
+  margin-bottom: 3rem;
+  color: #1a73e8;
+}
+
+#HomePage article {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+#HomePage article > div {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  transition: all 0.2s ease-in-out;
+  text-align: left;
+}
+
+#HomePage article > div:hover {
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
+}
+
+#HomePage article > div > h1 {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+  color: #333;
+}
+
+#HomePage li {
+  list-style: none;
+  margin: 0.5rem 0;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  background-color: #f0f4f8;
+  transition: background-color 0.2s ease-in-out;
+  font-weight: 500;
+}
+
+#HomePage li:hover {
+  background-color: #e3edf9;
+  cursor: pointer;
+}
+
+#HomePage li p {
+  margin: 0;
+  font-size: 1rem;
+  color: #444;
+}
+
+#HomePage .link {
+  text-decoration: none;
+}
