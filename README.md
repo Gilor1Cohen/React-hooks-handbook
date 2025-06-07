@@ -7,6 +7,8 @@ Tailored for developers aiming to deepen their expertise, this repository demons
 
 From mastering local state with useState and useReducer, to optimizing renders using useMemo and useCallback, and exploring cutting-edge concurrency with useTransition and useDeferredValue — every hook is presented in practical, contextual examples that accelerate both learning and implementation.
 
+**All explanations are provided inline within the code as comments**, so you can see exactly how and why each hook works in context.
+
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
