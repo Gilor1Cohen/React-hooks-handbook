@@ -27,6 +27,7 @@ From mastering local state with useState and useReducer, to optimizing renders u
 ```bash
 git clone https://github.com/Gilor1Cohen/react-hooks-handbook.git
 cd react-hooks-handbook
+cd client
 npm install      # or yarn install
 npm run dev      # starts Vite dev server
 ```
