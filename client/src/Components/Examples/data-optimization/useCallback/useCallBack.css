@@ -1,0 +1,78 @@
+#useCallbackPage {
+  max-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1.5rem;
+  gap: 2rem;
+}
+
+#useCallbackPage h1 {
+  font-size: 2rem;
+  margin-bottom: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+#useCallbackPage #code {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 2rem;
+  background: #f7f7f7;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+#useCallbackPage #code p {
+  margin: 0.25rem 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+#useCallbackPage #code button {
+  padding: 0.5rem 1.25rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #2563eb;
+  color: #ffffff;
+  transition: background-color 0.2s ease;
+}
+
+#useCallbackPage #code button:hover {
+  background-color: #1d4ed8;
+}
+
+#useCallbackPage #code input {
+  width: 100%;
+  max-width: 320px;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+}
+
+#useCallbackPage #text {
+  max-width: 680px;
+  line-height: 1.6;
+}
+
+#useCallbackPage #text h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#useCallbackPage #text p {
+  font-size: 1rem;
+}
+
+#useCallbackPage code {
+  background-color: #eaeaea;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: "Courier New", monospace;
+}
