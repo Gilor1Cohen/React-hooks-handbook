@@ -1,0 +1,38 @@
+#BackBtnLink {
+  text-decoration: none;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+}
+
+#BackBtn {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #007aff;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.25s ease, transform 0.1s ease, box-shadow 0.25s ease;
+}
+
+#BackBtn:hover {
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #005bbb;
+}
+
+#BackBtn:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}

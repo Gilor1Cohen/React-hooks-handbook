@@ -1,3 +1,3 @@
-export default function useDeferredValue() {
+export default function useDeferredValuePage() {
   return <div>useDeferredValue</div>;
 }

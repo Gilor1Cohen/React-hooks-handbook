@@ -1,3 +1,3 @@
-export default function useMemo() {
+export default function useMemoPage() {
   return <div>useMemo</div>;
 }

@@ -1,3 +1,3 @@
-export default function useId() {
+export default function useIdPage() {
   return <div>useId</div>;
 }

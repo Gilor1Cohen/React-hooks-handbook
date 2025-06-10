@@ -1,0 +1,76 @@
+#useStatePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+  background-color: #ffffff;
+  color: #000;
+}
+
+#useStatePage h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 32px;
+  border-bottom: 2px solid #f1f3f4;
+  padding-bottom: 8px;
+  width: 100%;
+  max-width: 600px;
+}
+
+#useStatePage article {
+  display: flex;
+  align-items: center;
+  background-color: #f1f3f4;
+  padding: 24px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+#useStatePage article#code {
+  justify-content: space-between;
+  gap: 16px;
+}
+
+#useStatePage article#code p {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+#useStatePage article#text {
+  flex-direction: column;
+  text-align: left;
+  gap: 12px;
+}
+
+#useStatePage article#text h3 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+#useStatePage article#text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+#useStatePage button {
+  background-color: #1a73e8;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+#useStatePage button:hover {
+  background-color: #1669c1;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

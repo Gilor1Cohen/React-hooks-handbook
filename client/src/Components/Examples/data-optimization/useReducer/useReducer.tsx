@@ -1,3 +1,3 @@
-export default function useReducer() {
+export default function useReducerPage() {
   return <div>useReducer</div>;
 }

@@ -1,3 +1,3 @@
-export default function useCallback() {
+export default function useCallbackPage() {
   return <div>useCallback</div>;
 }

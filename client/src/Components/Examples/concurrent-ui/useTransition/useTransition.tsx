@@ -1,3 +1,3 @@
-export default function useTransition() {
+export default function useTransitionPage() {
   return <div>useTransition</div>;
 }

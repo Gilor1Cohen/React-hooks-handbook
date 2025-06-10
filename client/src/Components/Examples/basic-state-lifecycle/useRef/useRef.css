@@ -1,0 +1,64 @@
+#useRefPage {
+  max-width: 100vw;
+  min-height: 100vh;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  box-sizing: border-box;
+  color: #000;
+}
+
+#useRefPage h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#useRefPage h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+#useRefPage #code,
+#useRefPage #text {
+  width: 100%;
+  max-width: 800px;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+}
+
+#useRefPage #code > div,
+#useRefPage #code > section {
+  margin-bottom: 2rem;
+}
+
+#code button {
+  margin-right: 0.75rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.25rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#code button:hover {
+  background-color: #0056b3;
+}
+
+#code p {
+  margin: 0.25rem 0;
+  font-size: 1.05rem;
+}
+
+#text p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
