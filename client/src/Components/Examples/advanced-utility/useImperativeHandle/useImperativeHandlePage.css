@@ -1,0 +1,50 @@
+#useImperativeHandlePage {
+  width: 100%;
+  max-width: 100vw;
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1.5rem;
+  gap: 2rem;
+}
+
+#useImperativeHandlePage h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+#useImperativeHandlePage #code {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+#useImperativeHandlePage .increment-btn {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#useImperativeHandlePage .increment-btn:hover {
+  background-color: #45a049;
+}
+
+#useImperativeHandlePage #text code {
+  background-color: #eee;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: Consolas, monospace;
+}

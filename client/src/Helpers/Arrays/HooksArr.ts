@@ -9,7 +9,6 @@ import useCallbackPage from "../../Components/Examples/data-optimization/useCall
 import useReducerPage from "../../Components/Examples/data-optimization/useReducer/useReducer";
 import useTransitionPage from "../../Components/Examples/concurrent-ui/useTransition/useTransition";
 import useDeferredValuePage from "../../Components/Examples/concurrent-ui/useDeferredValue/useDeferredValue";
-import useDebugValuePage from "../../Components/Examples/advanced-utility/useDebugValue/useDebugValue";
 import useImperativeHandlePage from "../../Components/Examples/advanced-utility/useImperativeHandle/useImperativeHandle";
 import useIdPage from "../../Components/Examples/advanced-utility/useId/useId";
 
@@ -41,11 +40,6 @@ export const Hooks: HooksArr[] = [
     Name: "useDeferredValue",
     Category: Categories[2],
     Component: useDeferredValuePage,
-  },
-  {
-    Name: "useDebugValue",
-    Category: Categories[3],
-    Component: useDebugValuePage,
   },
   {
     Name: "useImperativeHandle",
