@@ -59,5 +59,4 @@ npm run dev      # starts Vite dev server
 ### 4. Advanced & Utility Hooks
 
 - `useImperativeHandle`
-- `useDebugValue`
 - `useId`
